@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>crud</title>
+  </head>
+  <body>
+    <section class="container">
+      <input type="text" class="add-input-user" placeholder="Enter your name" required>
+      <input type="text" class="add-input-avatar" placeholder="Enter your avatar" required>
+      <button onclick="createUser()" class="btn btn-primary">Create User</button>
+      <button id="updateKey" onclick="updateData(id)" class="btn btn-primary">Update User</button>
+    </section>
+    
+    <div id="user-list" class="row"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
